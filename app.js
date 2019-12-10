@@ -1,63 +1,32 @@
 const cfenv = require('cfenv');
 const appEnv = cfenv.getAppEnv();
-const express = require('express');
-const bodyParser = require('body-parser');
-const nunjucks = require('nunjucks');
-const logger = require('./logger.js');
-const t2s = require('./text2speech.js');
+const Botkit = require('botkit');
+const logger = require('./logger');
 require('dotenv').config();
 
 var TAG = 'app.js';
 
-app = express();
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(express.static('/views'));
-// app.use('/static/', express.static(__dirname + '/static'));
-
-nunjucks.configure('views', {
-    autoescape: true,
-    express: app
+// Create the Botkit controller, which controls all instances of the bot.
+var controller = Botkit.facebookbot({
+    debug: true,
+    verify_token: process.env.FACEBOOK_VERIFY_TOKEN,
+    access_token: process.env.FACEBOOK_ACCESS_TOKEN,
+    // app_secret: process.env.FACEBOOK_APP_SECRET
 });
 
-app.set('view engine', 'html');
+var bot = controller.spawn({});
 
-app.get('/', function(req, res) {
-    let listVoices = t2s.getListVoices();
-    res.render('index.html', { voices: listVoices.result.voices } );
+// Setup botkit webserver & messenger bot webhooks endpoints
+controller.setupWebserver(appEnv.port || process.env.PORT, function(err,webserver) {
+    controller.createWebhookEndpoints(controller.webserver, bot, function() {
+        logger.log(TAG, 'The FLN bot is online. On ' + appEnv.port);
+    });
 });
 
-app.get('/text2speech', function(req, res) {
-     var accpectType = 'audio/ogg';
-      const synthesizeParams = {
-        text: req.query.transText,
-        accept: accpectType,
-        voice: req.query.transVoices,
-      };
-      
-      logger.log(TAG, "received request: " + JSON.stringify(synthesizeParams));
-      t2s.getSynthesize(synthesizeParams)
-            .then(audio => {
-                const audioStatus = {
-                    status: audio.status,
-                    statusText: audio.statusText,
-                    text: synthesizeParams.text,
-                    accept: accpectType,
-                    voice: synthesizeParams.voice
-                };
+var webserver = controller.webserver;
 
-                logger.log(TAG, JSON.stringify(audioStatus));
-                if (audio.status == 200) {
-                    // audio.result.pipe(fs.createWriteStream('happy.mp3'));
-                    audio.result.pipe(res);
-                } else {
-                    res.send(JSON.stringify(audioStatus));
-                }
-            })
-            .catch(err => {
-                logger.log(TAG, 'error:', err);
-            });
-});
+// Setup Fast Load News routes 
+require('./fastloadnews')(webserver);
 
-app.listen(appEnv.port, appEnv.bind, function() {
-    console.log("server starting on " + appEnv.url);
-});
+// Setup bot response handler
+require('./bot_response')(controller);
