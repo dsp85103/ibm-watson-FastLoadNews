@@ -18,7 +18,7 @@ A IBM Cloud Watson Application
 ### fastloadnews.js
 - Setup fastloadnews web response events & routes
 
-### text2speech.js
+### ibm-watson-text2speech.js
 - Text to speech Api Adapter
 
 # Author
