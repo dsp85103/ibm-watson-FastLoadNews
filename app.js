@@ -1,6 +1,9 @@
 const cfenv = require('cfenv');
 const appEnv = cfenv.getAppEnv();
 const Botkit = require('botkit');
+const bodyParser = require('body-parser');
+const nunjucks = require('nunjucks');
+const express = require('express');
 const logger = require('./logger');
 require('dotenv').config();
 
@@ -23,10 +26,22 @@ controller.setupWebserver(appEnv.port || process.env.PORT, function(err,webserve
     });
 });
 
+// Setup Webserver 
 var webserver = controller.webserver;
+
+nunjucks.configure('views', {
+    autoescape: true,
+    express: webserver
+});
+
+webserver.use(bodyParser.urlencoded({ extended: true }))
+webserver.use(express.static('/views'));
+webserver.set('view engine', 'html');
+
 
 // Setup Fast Load News routes 
 require('./fastloadnews')(webserver);
+
 
 // Setup bot response handler
 require('./bot_response')(controller);

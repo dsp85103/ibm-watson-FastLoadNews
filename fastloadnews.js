@@ -1,23 +1,12 @@
 
-const express = require('express');
 const logger = require('./logger');
-const bodyParser = require('body-parser');
-const nunjucks = require('nunjucks');
 const t2s = require('./text2speech');
 
 var TAG = 'fastloadnews.js';
 
 module.exports = function (app) {
 
-    nunjucks.configure('views', {
-        autoescape: true,
-        express: app
-    });
-
-    app.use(bodyParser.urlencoded({ extended: true }))
-    app.use(express.static('/views'));
-    app.set('view engine', 'html');
-
+    
     app.get('/', function (req, res) {
         let listVoices = t2s.getListVoices();
         res.render('index.html', { voices: listVoices.result.voices });
