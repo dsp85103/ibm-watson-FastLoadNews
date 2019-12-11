@@ -1,5 +1,5 @@
 var TAG = "text2speech.js";
-const logger = require('./logger.js');
+const logger = require('../tools/logger.js');
 require('dotenv').config();
 
 // Text to Speech 

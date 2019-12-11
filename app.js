@@ -4,7 +4,7 @@ const Botkit = require('botkit');
 const bodyParser = require('body-parser');
 const nunjucks = require('nunjucks');
 const express = require('express');
-const logger = require('./logger');
+const logger = require('./tools/logger.js');
 require('dotenv').config();
 
 var TAG = 'app.js';
@@ -44,4 +44,4 @@ require('./fastloadnews')(webserver);
 
 
 // Setup bot response handler
-require('./bot_response')(controller);
+require('./bot/bot_response')(controller);
