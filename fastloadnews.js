@@ -1,47 +1,20 @@
-
-const logger = require('./logger');
-const t2s = require('./text2speech');
+const logger = require('./tools/logger');
 
 var TAG = 'fastloadnews.js';
 
+const index = require('./routes/index');
+const translator = require('./routes/translator');
+const text2speech = require('./routes/text2speech');
+const news = require('./routes/news');
+const discovery = require('./routes/discovery');
+
 module.exports = function (app) {
 
-    
-    app.get('/', function (req, res) {
-        let listVoices = t2s.getListVoices();
-        res.render('index.html', { voices: listVoices.result.voices });
-    });
+    app.use('/', index);
+    app.use('/translator', translator);
+    app.use('/text2speech', text2speech);
 
-    app.get('/text2speech', function (req, res) {
-        var accpectType = 'audio/ogg';
-        const synthesizeParams = {
-            text: req.query.transText,
-            accept: accpectType,
-            voice: req.query.transVoices,
-        };
-
-        logger.log(TAG, "received request: " + JSON.stringify(synthesizeParams));
-        t2s.getSynthesize(synthesizeParams)
-            .then(audio => {
-                const audioStatus = {
-                    status: audio.status,
-                    statusText: audio.statusText,
-                    text: synthesizeParams.text,
-                    accept: accpectType,
-                    voice: synthesizeParams.voice
-                };
-
-                logger.log(TAG, JSON.stringify(audioStatus));
-                if (audio.status == 200) {
-                    // audio.result.pipe(fs.createWriteStream('happy.mp3'));
-                    audio.result.pipe(res);
-                } else {
-                    res.send(JSON.stringify(audioStatus));
-                }
-            })
-            .catch(err => {
-                logger.log(TAG, 'error:', err);
-            });
-    });
+    app.use('/news', news);
+    app.use('/discovery', discovery);
 
 }
