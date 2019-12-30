@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 const discovery = require('../services/ibm-watson-discovery');
 
-router.post('/', function (req, res) {
-    console.log(req.body.query);
-    let discoveryQuery = discovery.query(req.body.query, req.body.count);
+router.get('/', function (req, res) {
+    console.log(req.query.query);
+    let discoveryQuery = discovery.query(req.query.query, req.query.count);
 
     discoveryQuery
         .then(queryResponse => {

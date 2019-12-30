@@ -2,6 +2,7 @@ const express = require('express');
 var router = express.Router();
 const logger = require('../tools/logger');
 const t2s = require('../services/ibm-watson-text2speech');
+const TAG = "Text2Speech";
 
 router.get('/', function (req, res) {
     var accpectType = 'audio/ogg';

@@ -27,7 +27,7 @@
                 count: queryAmount
             };
 
-            $.post("/discovery", data, function (result) {
+            $.get("/discovery", data, function (result) {
                 var queryData = $("#queryData");
                 var data = JSON.parse(result);
 

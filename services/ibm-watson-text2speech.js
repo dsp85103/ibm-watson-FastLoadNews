@@ -21,6 +21,7 @@ function doListVoices() {
           logger.log(TAG, "Got a list of voice from Text2Speech api.");
       }).catch(error => {
           logger.log(TAG, error);
+          doListVoices();
       });
 }
 
