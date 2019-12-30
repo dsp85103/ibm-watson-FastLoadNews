@@ -1,0 +1,5205 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-type": "application/json;charset=utf-8",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, PUT, POST, DELETE, OPTIONS",
+    "cache-control": "no-cache, no-store, no-transform, max-age=0",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1",
+    "content-security-policy": "default-src 'none'",
+    "access-control-allow-headers": "Origin, Content-Type, Content-Length, Accept, X-Watson-Authorization-Token, X-WDC-PL-OPT-OUT, X-Watson-UserInfo, X-Watson-Learning-Opt-Out, X-Watson-Metadata",
+    "strict-transport-security": "max-age=31536000; includeSubDomains;",
+    "x-global-transaction-id": "cd9a7608e3b16d1b1c66a859f9e8b3a3",
+    "x-dp-watson-tran-id": "cd9a7608e3b16d1b1c66a859f9e8b3a3",
+    "x-edgeconnect-midmile-rtt": "199",
+    "x-edgeconnect-origin-mex-latency": "340",
+    "date": "Wed, 11 Dec 2019 02:03:50 GMT",
+    "transfer-encoding": "chunked",
+    "connection": "close, Transfer-Encoding"
+  },
+  "result": {
+    "matching_results": 446131,
+    "results": [
+      {
+        "id": "cp4d6wZqDqr56bVGGTuxzQxK8amj_vHQv_XaTpZtF-2wrhbHj8jeaDTTsEFjWHjR",
+        "result_metadata": {
+          "score": 7.7234163
+        },
+        "enriched_title": {
+          "entities": [
+            {
+              "count": 2,
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "text": "Google",
+              "relevance": 0.33,
+              "type": "Company",
+              "disambiguation": {
+                "subtype": [
+                  "AcademicInstitution",
+                  "AwardPresentingOrganization",
+                  "OperatingSystemDeveloper",
+                  "ProgrammingLanguageDeveloper",
+                  "SoftwareDeveloper",
+                  "VentureFundedCompany"
+                ],
+                "name": "Google",
+                "dbpedia_resource": "http://dbpedia.org/resource/Google"
+              }
+            }
+          ],
+          "sentiment": {
+            "document": {
+              "score": 0,
+              "label": "neutral"
+            }
+          },
+          "semantic_roles": [],
+          "concepts": [
+            {
+              "text": "Google",
+              "relevance": 0.9044,
+              "dbpedia_resource": "http://dbpedia.org/resource/Google"
+            },
+            {
+              "text": "Consumer",
+              "relevance": 0.889891,
+              "dbpedia_resource": "http://dbpedia.org/resource/Consumer"
+            }
+          ],
+          "categories": [
+            {
+              "score": 0.996757,
+              "label": "/shopping"
+            },
+            {
+              "score": 0.971373,
+              "label": "/shopping/resources"
+            },
+            {
+              "score": 0.925962,
+              "label": "/technology and computing/internet technology/web search"
+            }
+          ],
+          "relations": [],
+          "keywords": [
+            {
+              "text": "Google Redesigns Google Shopping",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.999999,
+              "count": 1
+            },
+            {
+              "text": "Businesses",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.534049,
+              "count": 1
+            },
+            {
+              "text": "Consumers",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.528095,
+              "count": 1
+            },
+            {
+              "text": "New Options",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.017136,
+              "count": 1
+            }
+          ]
+        },
+        "crawl_date": "2019-10-08T21:10:37Z",
+        "url": "https://www.inc.com/peter-roesler/google-redesigns-google-shopping-adds-new-options-for-businesses-consumers.html",
+        "host": "inc.com",
+        "text": "In an Oct. 3 post announcing the redesign, Google wrote, “You already come to Google to browse and search for products-;now, you can buy from thousands of stores directly on Google. Checkout is quick, easy, and safe because you can use the information saved in your Google Account.",
+        "main_image_url": "https://www.incimages.com/uploaded_files/image/970x450/getty_847349004_403871.jpg",
+        "country": "US",
+        "source_type": "mainstream",
+        "language": "en",
+        "publication_date": "2019-10-07T00:00:00Z",
+        "enriched_text": {
+          "entities": [
+            {
+              "count": 29,
+              "sentiment": {
+                "score": 0.713328,
+                "label": "positive"
+              },
+              "text": "Google",
+              "relevance": 0.899214,
+              "type": "Company",
+              "disambiguation": {
+                "subtype": [
+                  "AcademicInstitution",
+                  "AwardPresentingOrganization",
+                  "OperatingSystemDeveloper",
+                  "ProgrammingLanguageDeveloper",
+                  "SoftwareDeveloper",
+                  "VentureFundedCompany"
+                ],
+                "name": "Google",
+                "dbpedia_resource": "http://dbpedia.org/resource/Google"
+              }
+            },
+            {
+              "count": 1,
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "text": "writer",
+              "relevance": 0.079473,
+              "type": "JobTitle"
+            },
+            {
+              "count": 1,
+              "sentiment": {
+                "score": 0.437841,
+                "label": "positive"
+              },
+              "text": "Amazon",
+              "relevance": 0.072992,
+              "type": "Company"
+            },
+            {
+              "count": 1,
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "text": "@webmarketing007",
+              "relevance": 0.072992,
+              "type": "TwitterHandle"
+            }
+          ],
+          "sentiment": {
+            "document": {
+              "score": 0.704592,
+              "label": "positive"
+            }
+          },
+          "semantic_roles": [
+            {
+              "subject": {
+                "text": "New Options For Businesses and Consumers New redesign",
+                "keywords": [
+                  {
+                    "text": "Consumers New redesign"
+                  },
+                  {
+                    "text": "New Options"
+                  },
+                  {
+                    "text": "Businesses"
+                  }
+                ]
+              },
+              "sentence": "Marketing Google Redesigns Google Shopping and Adds New Options For Businesses and Consumers New redesign makes it easier to search for products and updates features like \"price track\" and \"find nearby\".",
+              "object": {
+                "text": "to search for products",
+                "keywords": [
+                  {
+                    "text": "products"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "make",
+                  "tense": "present"
+                },
+                "text": "makes",
+                "normalized": "make"
+              }
+            },
+            {
+              "subject": {
+                "text": "online sales",
+                "keywords": [
+                  {
+                    "text": "online sales"
+                  }
+                ]
+              },
+              "sentence": " @webmarketing007 Getty Images For many businesses, online sales account for a significant portion of the company’s revenue.",
+              "object": {
+                "text": "for a significant portion of the company’s revenue",
+                "keywords": [
+                  {
+                    "text": "significant portion"
+                  },
+                  {
+                    "text": "revenue"
+                  },
+                  {
+                    "text": "company"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "account",
+                  "tense": "present"
+                },
+                "text": "account",
+                "normalized": "account"
+              }
+            },
+            {
+              "subject": {
+                "text": "a significant portion of the company",
+                "keywords": [
+                  {
+                    "text": "significant portion"
+                  },
+                  {
+                    "text": "company"
+                  }
+                ]
+              },
+              "sentence": " @webmarketing007 Getty Images For many businesses, online sales account for a significant portion of the company’s revenue.",
+              "object": {
+                "text": "revenue",
+                "keywords": [
+                  {
+                    "text": "revenue"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "has",
+                  "tense": "present"
+                },
+                "text": "s",
+                "normalized": "s"
+              }
+            },
+            {
+              "subject": {
+                "text": "This shift",
+                "keywords": [
+                  {
+                    "text": "shift"
+                  }
+                ]
+              },
+              "sentence": " This shift has made it more important than ever for businesses to use online marketing tactics that have a significant impact on the audience.",
+              "object": {
+                "text": "it"
+              },
+              "action": {
+                "verb": {
+                  "text": "make",
+                  "tense": "past"
+                },
+                "text": "has made",
+                "normalized": "have make"
+              }
+            },
+            {
+              "subject": {
+                "text": "businesses",
+                "keywords": [
+                  {
+                    "text": "businesses"
+                  }
+                ]
+              },
+              "sentence": " This shift has made it more important than ever for businesses to use online marketing tactics that have a significant impact on the audience.",
+              "object": {
+                "text": "online marketing tactics that have a significant impact on the audience",
+                "keywords": [
+                  {
+                    "text": "online marketing tactics"
+                  },
+                  {
+                    "text": "significant impact"
+                  },
+                  {
+                    "text": "audience"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "use",
+                  "tense": "future"
+                },
+                "text": "to use",
+                "normalized": "to use"
+              }
+            },
+            {
+              "subject": {
+                "text": "businesses to use online marketing tactics",
+                "keywords": [
+                  {
+                    "text": "online marketing tactics"
+                  },
+                  {
+                    "text": "businesses"
+                  }
+                ]
+              },
+              "sentence": " This shift has made it more important than ever for businesses to use online marketing tactics that have a significant impact on the audience.",
+              "object": {
+                "text": "a significant impact on the audience",
+                "keywords": [
+                  {
+                    "text": "significant impact"
+                  },
+                  {
+                    "text": "audience"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "present"
+                },
+                "text": "have",
+                "normalized": "have"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Google has updated its online ad offerings to create a new format that makes it simpler for customers to find the best prices and places to shop with Google Shopping .",
+              "object": {
+                "text": "updated its online ad offerings",
+                "keywords": [
+                  {
+                    "text": "online ad offerings"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "present"
+                },
+                "text": "has",
+                "normalized": "have"
+              }
+            },
+            {
+              "subject": {
+                "text": "a new format",
+                "keywords": [
+                  {
+                    "text": "new format"
+                  }
+                ]
+              },
+              "sentence": " Google has updated its online ad offerings to create a new format that makes it simpler for customers to find the best prices and places to shop with Google Shopping .",
+              "object": {
+                "text": "for customers",
+                "keywords": [
+                  {
+                    "text": "customers"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "make",
+                  "tense": "present"
+                },
+                "text": "makes",
+                "normalized": "make"
+              }
+            },
+            {
+              "subject": {
+                "text": "customers",
+                "keywords": [
+                  {
+                    "text": "customers"
+                  }
+                ]
+              },
+              "sentence": " Google has updated its online ad offerings to create a new format that makes it simpler for customers to find the best prices and places to shop with Google Shopping .",
+              "object": {
+                "text": "the best prices and places to shop with Google Shopping",
+                "keywords": [
+                  {
+                    "text": "Google Shopping"
+                  },
+                  {
+                    "text": "best prices"
+                  },
+                  {
+                    "text": "places"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "find",
+                  "tense": "future"
+                },
+                "text": "to find",
+                "normalized": "to find"
+              }
+            },
+            {
+              "subject": {
+                "text": "customers",
+                "keywords": [
+                  {
+                    "text": "customers"
+                  }
+                ]
+              },
+              "sentence": " The massive number of retailers online makes it more difficult for customers to find the best prices for the item they want.",
+              "object": {
+                "text": "the best prices for the item they want",
+                "keywords": [
+                  {
+                    "text": "best prices"
+                  },
+                  {
+                    "text": "item"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "find",
+                  "tense": "future"
+                },
+                "text": "to find",
+                "normalized": "to find"
+              }
+            },
+            {
+              "subject": {
+                "text": "they"
+              },
+              "sentence": " The massive number of retailers online makes it more difficult for customers to find the best prices for the item they want.",
+              "object": {
+                "text": "the item",
+                "keywords": [
+                  {
+                    "text": "item"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "want",
+                  "tense": "present"
+                },
+                "text": "want",
+                "normalized": "want"
+              }
+            },
+            {
+              "subject": {
+                "text": "retailers",
+                "keywords": [
+                  {
+                    "text": "retailers"
+                  }
+                ]
+              },
+              "sentence": " Similarly, retailers have trouble cutting through the noise to ensure their target audience sees the products that are available.",
+              "object": {
+                "text": "trouble cutting through the noise",
+                "keywords": [
+                  {
+                    "text": "trouble"
+                  },
+                  {
+                    "text": "noise"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "present"
+                },
+                "text": "have",
+                "normalized": "have"
+              }
+            },
+            {
+              "subject": {
+                "text": "retailers",
+                "keywords": [
+                  {
+                    "text": "retailers"
+                  }
+                ]
+              },
+              "sentence": " Similarly, retailers have trouble cutting through the noise to ensure their target audience sees the products that are available.",
+              "object": {
+                "text": "their target audience",
+                "keywords": [
+                  {
+                    "text": "target audience"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "ensure",
+                  "tense": "future"
+                },
+                "text": "to ensure",
+                "normalized": "to ensure"
+              }
+            },
+            {
+              "subject": {
+                "text": "their target audience",
+                "keywords": [
+                  {
+                    "text": "target audience"
+                  }
+                ]
+              },
+              "sentence": " Similarly, retailers have trouble cutting through the noise to ensure their target audience sees the products that are available.",
+              "object": {
+                "text": "the products that are available",
+                "keywords": [
+                  {
+                    "text": "products"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "see",
+                  "tense": "present"
+                },
+                "text": "sees",
+                "normalized": "see"
+              }
+            },
+            {
+              "subject": {
+                "text": "the products",
+                "keywords": [
+                  {
+                    "text": "products"
+                  }
+                ]
+              },
+              "sentence": " Similarly, retailers have trouble cutting through the noise to ensure their target audience sees the products that are available.",
+              "object": {
+                "text": "available"
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "present"
+                },
+                "text": "are",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "The redesigned Google Shopping",
+                "keywords": [
+                  {
+                    "text": "Google Shopping"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " The redesigned Google Shopping is designed to take all of the information from Google about a product and use it to create a comprehensive showcase of potential sellers that will meet the needs of an online shopper.",
+              "object": {
+                "text": "all of the information",
+                "keywords": [
+                  {
+                    "text": "information"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "take",
+                  "tense": "future"
+                },
+                "text": "is designed to take",
+                "normalized": "be design to take"
+              }
+            },
+            {
+              "subject": {
+                "text": "it"
+              },
+              "sentence": " The redesigned Google Shopping is designed to take all of the information from Google about a product and use it to create a comprehensive showcase of potential sellers that will meet the needs of an online shopper.",
+              "object": {
+                "text": "to create a comprehensive showcase of potential sellers that will meet the needs of an online shopper",
+                "keywords": [
+                  {
+                    "text": "online shopper"
+                  },
+                  {
+                    "text": "potential sellers"
+                  },
+                  {
+                    "text": "comprehensive showcase"
+                  },
+                  {
+                    "text": "needs"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "use",
+                  "tense": "present"
+                },
+                "text": "use",
+                "normalized": "use"
+              }
+            },
+            {
+              "subject": {
+                "text": "it"
+              },
+              "sentence": " The redesigned Google Shopping is designed to take all of the information from Google about a product and use it to create a comprehensive showcase of potential sellers that will meet the needs of an online shopper.",
+              "object": {
+                "text": "a comprehensive showcase of potential sellers that will meet the needs of an online shopper",
+                "keywords": [
+                  {
+                    "text": "online shopper"
+                  },
+                  {
+                    "text": "potential sellers"
+                  },
+                  {
+                    "text": "comprehensive showcase"
+                  },
+                  {
+                    "text": "needs"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "create",
+                  "tense": "future"
+                },
+                "text": "to create",
+                "normalized": "to create"
+              }
+            },
+            {
+              "subject": {
+                "text": "the new Google Shopping homepage",
+                "keywords": [
+                  {
+                    "text": "new Google Shopping"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Like many of Google’s offerings, the new Google Shopping homepage is personalized for each individual.",
+              "object": {
+                "text": "personalized for each individual",
+                "keywords": [
+                  {
+                    "text": "individual"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "present"
+                },
+                "text": "is",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "consumers",
+                "keywords": [
+                  {
+                    "text": "consumers"
+                  }
+                ]
+              },
+              "sentence": " When consumers use Google Shopping, they will see useful product suggestions along with sections that help shoppers reorder common items or continue their shopping research.",
+              "object": {
+                "text": "Google Shopping",
+                "keywords": [
+                  {
+                    "text": "Google Shopping"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "use",
+                  "tense": "present"
+                },
+                "text": "use",
+                "normalized": "use"
+              }
+            },
+            {
+              "subject": {
+                "text": "they"
+              },
+              "sentence": " When consumers use Google Shopping, they will see useful product suggestions along with sections that help shoppers reorder common items or continue their shopping research.",
+              "object": {
+                "text": "useful product suggestions along with sections that help shoppers reorder common items or continue their shopping research",
+                "keywords": [
+                  {
+                    "text": "useful product suggestions"
+                  },
+                  {
+                    "text": "common items"
+                  },
+                  {
+                    "text": "shopping research"
+                  },
+                  {
+                    "text": "shoppers"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "see",
+                  "tense": "future"
+                },
+                "text": "will see",
+                "normalized": "will see"
+              }
+            },
+            {
+              "subject": {
+                "text": "sections",
+                "keywords": [
+                  {
+                    "text": "sections"
+                  }
+                ]
+              },
+              "sentence": " When consumers use Google Shopping, they will see useful product suggestions along with sections that help shoppers reorder common items or continue their shopping research.",
+              "object": {
+                "text": "shoppers reorder common items or continue their shopping research",
+                "keywords": [
+                  {
+                    "text": "common items"
+                  },
+                  {
+                    "text": "shopping research"
+                  },
+                  {
+                    "text": "shoppers"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "help",
+                  "tense": "present"
+                },
+                "text": "help",
+                "normalized": "help"
+              }
+            },
+            {
+              "subject": {
+                "text": "shoppers",
+                "keywords": [
+                  {
+                    "text": "shoppers"
+                  }
+                ]
+              },
+              "sentence": " When consumers use Google Shopping, they will see useful product suggestions along with sections that help shoppers reorder common items or continue their shopping research.",
+              "object": {
+                "text": "their shopping research",
+                "keywords": [
+                  {
+                    "text": "shopping research"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "continue",
+                  "tense": "present"
+                },
+                "text": "continue",
+                "normalized": "continue"
+              }
+            },
+            {
+              "subject": {
+                "text": "someone"
+              },
+              "sentence": " Once someone has found what they need, it’s possible to purchase online, at a nearby store, or directly from retailers on Google.",
+              "object": {
+                "text": "found what they need"
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "present"
+                },
+                "text": "has",
+                "normalized": "have"
+              }
+            },
+            {
+              "subject": {
+                "text": "someone"
+              },
+              "sentence": " Once someone has found what they need, it’s possible to purchase online, at a nearby store, or directly from retailers on Google.",
+              "object": {
+                "text": "what they need, it’s possible to purchase online, at a nearby store, or directly from retailers on Google",
+                "keywords": [
+                  {
+                    "text": "nearby store"
+                  },
+                  {
+                    "text": "Google"
+                  },
+                  {
+                    "text": "retailers"
+                  },
+                  {
+                    "text": "online"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "find",
+                  "tense": "past"
+                },
+                "text": "has found",
+                "normalized": "have find"
+              }
+            },
+            {
+              "subject": {
+                "text": "possible"
+              },
+              "sentence": " Once someone has found what they need, it’s possible to purchase online, at a nearby store, or directly from retailers on Google.",
+              "object": {
+                "text": "to purchase online, at a nearby store, or directly from retailers on Google",
+                "keywords": [
+                  {
+                    "text": "nearby store"
+                  },
+                  {
+                    "text": "Google"
+                  },
+                  {
+                    "text": "retailers"
+                  },
+                  {
+                    "text": "online"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "has",
+                  "tense": "present"
+                },
+                "text": "s",
+                "normalized": "s"
+              }
+            },
+            {
+              "subject": {
+                "text": "The redesigned Google Shopping",
+                "keywords": [
+                  {
+                    "text": "Google Shopping"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " The redesigned Google Shopping is also making it easier for customers to buy items directly from the Google Shopping page.",
+              "object": {
+                "text": "for customers to buy items directly from the Google Shopping page",
+                "keywords": [
+                  {
+                    "text": "Google Shopping page"
+                  },
+                  {
+                    "text": "customers"
+                  },
+                  {
+                    "text": "items"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "make",
+                  "tense": "present"
+                },
+                "text": "making",
+                "normalized": "make"
+              }
+            },
+            {
+              "subject": {
+                "text": "Users",
+                "keywords": [
+                  {
+                    "text": "Users"
+                  }
+                ]
+              },
+              "sentence": " Users won’t have to click to another site to complete the checkout process, and Google will use account information to make checkout faster.",
+              "object": {
+                "text": "the checkout process",
+                "keywords": [
+                  {
+                    "text": "checkout process"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "complete",
+                  "tense": "future"
+                },
+                "text": "to complete",
+                "normalized": "to complete"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Users won’t have to click to another site to complete the checkout process, and Google will use account information to make checkout faster.",
+              "object": {
+                "text": "account information",
+                "keywords": [
+                  {
+                    "text": "account information"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "use",
+                  "tense": "future"
+                },
+                "text": "will use",
+                "normalized": "will use"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Users won’t have to click to another site to complete the checkout process, and Google will use account information to make checkout faster.",
+              "object": {
+                "text": "checkout",
+                "keywords": [
+                  {
+                    "text": "checkout"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "make",
+                  "tense": "future"
+                },
+                "text": "to make",
+                "normalized": "to make"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Google also guarantees purchases from many retailers, so there’s less for shoppers to worry about.",
+              "object": {
+                "text": "purchases",
+                "keywords": [
+                  {
+                    "text": "purchases"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "guarantee",
+                  "tense": "present"
+                },
+                "text": "guarantees",
+                "normalized": "guarantee"
+              }
+            },
+            {
+              "subject": {
+                "text": "an Oct. 3 post",
+                "keywords": [
+                  {
+                    "text": "Oct."
+                  },
+                  {
+                    "text": "post"
+                  }
+                ]
+              },
+              "sentence": " In an Oct. 3 post announcing the redesign, Google wrote, “You already come to Google to browse and search for products-;now, you can buy from thousands of stores directly on Google.",
+              "object": {
+                "text": "the redesign",
+                "keywords": [
+                  {
+                    "text": "redesign"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "announce",
+                  "tense": "present"
+                },
+                "text": "announcing",
+                "normalized": "announce"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " In an Oct. 3 post announcing the redesign, Google wrote, “You already come to Google to browse and search for products-;now, you can buy from thousands of stores directly on Google.",
+              "object": {
+                "text": "You already come to Google to browse and search for products-;now, you can buy from thousands of stores directly on Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  },
+                  {
+                    "text": "thousands"
+                  },
+                  {
+                    "text": "stores"
+                  },
+                  {
+                    "text": "products"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  },
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "write",
+                  "tense": "past"
+                },
+                "text": "wrote",
+                "normalized": "write"
+              }
+            },
+            {
+              "subject": {
+                "text": "Checkout",
+                "keywords": [
+                  {
+                    "text": "Checkout"
+                  }
+                ]
+              },
+              "sentence": " Checkout is quick, easy, and safe because you can use the information saved in your Google Account.",
+              "object": {
+                "text": "quick, easy, and safe"
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "present"
+                },
+                "text": "is",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "you"
+              },
+              "sentence": " Checkout is quick, easy, and safe because you can use the information saved in your Google Account.",
+              "object": {
+                "text": "the information",
+                "keywords": [
+                  {
+                    "text": "information"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "use",
+                  "tense": "future"
+                },
+                "text": "can use",
+                "normalized": "can use"
+              }
+            },
+            {
+              "subject": {
+                "text": "the information",
+                "keywords": [
+                  {
+                    "text": "information"
+                  }
+                ]
+              },
+              "sentence": " Checkout is quick, easy, and safe because you can use the information saved in your Google Account.",
+              "action": {
+                "verb": {
+                  "text": "save",
+                  "tense": "future"
+                },
+                "text": "saved",
+                "normalized": "save"
+              }
+            },
+            {
+              "subject": {
+                "text": "by a Google guarantee, which means you can rely on Google’s customer support,",
+                "keywords": [
+                  {
+                    "text": "Google guarantee"
+                  },
+                  {
+                    "text": "Google’s customer"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  },
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " And every order is backed by a Google guarantee, which means you can rely on Google’s customer support, and we’ll have your back for easy returns and refunds.” Other features that have been upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price.",
+              "object": {
+                "text": "every order",
+                "keywords": [
+                  {
+                    "text": "order"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "back",
+                  "tense": "past"
+                },
+                "text": "is backed",
+                "normalized": "be back"
+              }
+            },
+            {
+              "subject": {
+                "text": "a Google guarantee",
+                "keywords": [
+                  {
+                    "text": "Google guarantee"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " And every order is backed by a Google guarantee, which means you can rely on Google’s customer support, and we’ll have your back for easy returns and refunds.” Other features that have been upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price.",
+              "object": {
+                "text": "you can rely on Google’s customer support",
+                "keywords": [
+                  {
+                    "text": "Google’s customer"
+                  },
+                  {
+                    "text": "support"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "mean",
+                  "tense": "present"
+                },
+                "text": "means",
+                "normalized": "mean"
+              }
+            },
+            {
+              "subject": {
+                "text": "we"
+              },
+              "sentence": " And every order is backed by a Google guarantee, which means you can rely on Google’s customer support, and we’ll have your back for easy returns and refunds.” Other features that have been upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price.",
+              "object": {
+                "text": "your back for easy returns and refunds.",
+                "keywords": [
+                  {
+                    "text": "easy returns"
+                  },
+                  {
+                    "text": "refunds"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "present"
+                },
+                "text": "ll have",
+                "normalized": "ll have"
+              }
+            },
+            {
+              "subject": {
+                "text": "Other features",
+                "keywords": [
+                  {
+                    "text": "features"
+                  }
+                ]
+              },
+              "sentence": " And every order is backed by a Google guarantee, which means you can rely on Google’s customer support, and we’ll have your back for easy returns and refunds.” Other features that have been upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price.",
+              "object": {
+                "text": "been upgraded on Google Shopping",
+                "keywords": [
+                  {
+                    "text": "Google Shopping"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "present"
+                },
+                "text": "have",
+                "normalized": "have"
+              }
+            },
+            {
+              "subject": {
+                "text": "Other features",
+                "keywords": [
+                  {
+                    "text": "features"
+                  }
+                ]
+              },
+              "sentence": " And every order is backed by a Google guarantee, which means you can rely on Google’s customer support, and we’ll have your back for easy returns and refunds.” Other features that have been upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price.",
+              "object": {
+                "text": "upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price",
+                "keywords": [
+                  {
+                    "text": "narrow search options"
+                  },
+                  {
+                    "text": "Google Shopping"
+                  },
+                  {
+                    "text": "filters"
+                  },
+                  {
+                    "text": "consumers"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "past"
+                },
+                "text": "been",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "Other features",
+                "keywords": [
+                  {
+                    "text": "features"
+                  }
+                ]
+              },
+              "sentence": " And every order is backed by a Google guarantee, which means you can rely on Google’s customer support, and we’ll have your back for easy returns and refunds.” Other features that have been upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price.",
+              "action": {
+                "verb": {
+                  "text": "upgrade",
+                  "tense": "past"
+                },
+                "text": "have been upgraded",
+                "normalized": "have be upgrade"
+              }
+            },
+            {
+              "subject": {
+                "text": "filters that let consumers find products that available nearby or narrow search options by price",
+                "keywords": [
+                  {
+                    "text": "narrow search options"
+                  },
+                  {
+                    "text": "filters"
+                  },
+                  {
+                    "text": "consumers"
+                  },
+                  {
+                    "text": "products"
+                  }
+                ]
+              },
+              "sentence": " And every order is backed by a Google guarantee, which means you can rely on Google’s customer support, and we’ll have your back for easy returns and refunds.” Other features that have been upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price.",
+              "object": {
+                "text": "Google Shopping",
+                "keywords": [
+                  {
+                    "text": "Google Shopping"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "include",
+                  "tense": "present"
+                },
+                "text": "include",
+                "normalized": "include"
+              }
+            },
+            {
+              "subject": {
+                "text": "filters",
+                "keywords": [
+                  {
+                    "text": "filters"
+                  }
+                ]
+              },
+              "sentence": " And every order is backed by a Google guarantee, which means you can rely on Google’s customer support, and we’ll have your back for easy returns and refunds.” Other features that have been upgraded on Google Shopping include filters that let consumers find products that available nearby or narrow search options by price.",
+              "object": {
+                "text": "consumers find products that available nearby or narrow search options by price",
+                "keywords": [
+                  {
+                    "text": "narrow search options"
+                  },
+                  {
+                    "text": "consumers"
+                  },
+                  {
+                    "text": "products"
+                  },
+                  {
+                    "text": "price"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "let",
+                  "tense": "present"
+                },
+                "text": "let",
+                "normalized": "let"
+              }
+            },
+            {
+              "subject": {
+                "text": "Users",
+                "keywords": [
+                  {
+                    "text": "Users"
+                  }
+                ]
+              },
+              "sentence": " Users on Google Shopping will also have an option to “price track” an item.",
+              "object": {
+                "text": "an option to “price track” an item",
+                "keywords": [
+                  {
+                    "text": "option"
+                  },
+                  {
+                    "text": "item"
+                  },
+                  {
+                    "text": "track"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "future"
+                },
+                "text": "will also have",
+                "normalized": "will also have"
+              }
+            },
+            {
+              "subject": {
+                "text": "Individuals",
+                "keywords": [
+                  {
+                    "text": "Individuals"
+                  }
+                ]
+              },
+              "sentence": " Individuals who use this option will get reports from Google about changes in the price of the item for several weeks.",
+              "object": {
+                "text": "this option",
+                "keywords": [
+                  {
+                    "text": "option"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "use",
+                  "tense": "present"
+                },
+                "text": "use",
+                "normalized": "use"
+              }
+            },
+            {
+              "subject": {
+                "text": "Individuals who use this option",
+                "keywords": [
+                  {
+                    "text": "option"
+                  },
+                  {
+                    "text": "Individuals"
+                  }
+                ]
+              },
+              "sentence": " Individuals who use this option will get reports from Google about changes in the price of the item for several weeks.",
+              "object": {
+                "text": "reports",
+                "keywords": [
+                  {
+                    "text": "reports"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "get",
+                  "tense": "future"
+                },
+                "text": "will get",
+                "normalized": "will get"
+              }
+            },
+            {
+              "subject": {
+                "text": "This feature",
+                "keywords": [
+                  {
+                    "text": "feature"
+                  }
+                ]
+              },
+              "sentence": " This feature can be extremely beneficial for holiday shoppers who are willing to wait for a little to see if the price goes down.",
+              "object": {
+                "text": "extremely beneficial for holiday shoppers who are willing to wait for a little",
+                "keywords": [
+                  {
+                    "text": "holiday shoppers"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "future"
+                },
+                "text": "can be",
+                "normalized": "can be"
+              }
+            },
+            {
+              "subject": {
+                "text": "The redesigned Google Shopping",
+                "keywords": [
+                  {
+                    "text": "Google Shopping"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " The redesigned Google Shopping may be a response from Google to the challenge it faces from competitors.",
+              "object": {
+                "text": "a response from Google to the challenge it faces from competitors",
+                "keywords": [
+                  {
+                    "text": "competitors"
+                  },
+                  {
+                    "text": "Google"
+                  },
+                  {
+                    "text": "challenge"
+                  },
+                  {
+                    "text": "response"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "future"
+                },
+                "text": "may be",
+                "normalized": "may be"
+              }
+            },
+            {
+              "subject": {
+                "text": "it"
+              },
+              "sentence": " The redesigned Google Shopping may be a response from Google to the challenge it faces from competitors.",
+              "object": {
+                "text": "the challenge",
+                "keywords": [
+                  {
+                    "text": "challenge"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "face",
+                  "tense": "present"
+                },
+                "text": "faces",
+                "normalized": "face"
+              }
+            }
+          ],
+          "concepts": [
+            {
+              "text": "Google",
+              "relevance": 0.971432,
+              "dbpedia_resource": "http://dbpedia.org/resource/Google"
+            },
+            {
+              "text": "Retailing",
+              "relevance": 0.644578,
+              "dbpedia_resource": "http://dbpedia.org/resource/Retailing"
+            },
+            {
+              "text": "Marketing",
+              "relevance": 0.578909,
+              "dbpedia_resource": "http://dbpedia.org/resource/Marketing"
+            },
+            {
+              "text": "Business",
+              "relevance": 0.525417,
+              "dbpedia_resource": "http://dbpedia.org/resource/Business"
+            },
+            {
+              "text": "Audience",
+              "relevance": 0.514433,
+              "dbpedia_resource": "http://dbpedia.org/resource/Audience"
+            },
+            {
+              "text": "Sales",
+              "relevance": 0.503989,
+              "dbpedia_resource": "http://dbpedia.org/resource/Sales"
+            },
+            {
+              "text": "Christmas and holiday season",
+              "relevance": 0.492738,
+              "dbpedia_resource": "http://dbpedia.org/resource/Christmas_and_holiday_season"
+            }
+          ],
+          "categories": [
+            {
+              "score": 0.943591,
+              "label": "/shopping"
+            },
+            {
+              "score": 0.917132,
+              "label": "/business and industrial/advertising and marketing"
+            },
+            {
+              "score": 0.831067,
+              "label": "/business and industrial/advertising and marketing/marketing"
+            }
+          ],
+          "relations": [
+            {
+              "type": "employedBy",
+              "sentence": "Like many of Google's offerings, the new Google Shopping homepage is personalized for each individual.",
+              "score": 0.333557,
+              "arguments": [
+                {
+                  "text": "many",
+                  "location": [
+                    1115,
+                    1119
+                  ],
+                  "entities": [
+                    {
+                      "type": "Cardinal",
+                      "text": "customers"
+                    }
+                  ]
+                },
+                {
+                  "text": "Google",
+                  "location": [
+                    1123,
+                    1129
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Redesigns Google Shopping",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "employedBy",
+              "sentence": "Online and local retailers should spend the next month preparing their Google Shopping offerings so they can let consumers shop with a Google guarantee.",
+              "score": 0.33354,
+              "arguments": [
+                {
+                  "text": "their",
+                  "location": [
+                    3317,
+                    3322
+                  ],
+                  "entities": [
+                    {
+                      "type": "Person",
+                      "text": "customers"
+                    }
+                  ]
+                },
+                {
+                  "text": "Google Shopping",
+                  "location": [
+                    3323,
+                    3338
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Redesigns Google Shopping",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "partOf",
+              "sentence": "Once someone has found what they need, it's possible to purchase online, at a nearby store, or directly from retailers on Google.",
+              "score": 0.733874,
+              "arguments": [
+                {
+                  "text": "retailers",
+                  "location": [
+                    1496,
+                    1505
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "retailers",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Google",
+                  "location": [
+                    1509,
+                    1515
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Redesigns Google Shopping",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "clientOf",
+              "sentence": "The redesigned Google Shopping is also making it easier for customers to buy items directly from the Google Shopping page.",
+              "score": 0.501097,
+              "arguments": [
+                {
+                  "text": "customers",
+                  "location": [
+                    1577,
+                    1586
+                  ],
+                  "entities": [
+                    {
+                      "type": "Person",
+                      "text": "customers"
+                    }
+                  ]
+                },
+                {
+                  "text": "Google Shopping",
+                  "location": [
+                    1532,
+                    1547
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Redesigns Google Shopping",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "timeOf",
+              "sentence": "In an Oct. 3 post announcing the redesign, Google wrote, \"You already come to Google to browse and search for products-;now, you can buy from thousands of stores directly on Google.",
+              "score": 0.894189,
+              "arguments": [
+                {
+                  "text": "Oct. 3",
+                  "location": [
+                    1886,
+                    1892
+                  ],
+                  "entities": [
+                    {
+                      "type": "Date",
+                      "text": "Oct. 3"
+                    }
+                  ]
+                },
+                {
+                  "text": "announcing",
+                  "location": [
+                    1898,
+                    1908
+                  ],
+                  "entities": [
+                    {
+                      "type": "EventCommunication",
+                      "text": "announcing"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "agentOf",
+              "sentence": "In an Oct. 3 post announcing the redesign, Google wrote, \"You already come to Google to browse and search for products-;now, you can buy from thousands of stores directly on Google.",
+              "score": 0.985675,
+              "arguments": [
+                {
+                  "text": "Google",
+                  "location": [
+                    1923,
+                    1929
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Redesigns Google Shopping",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "wrote",
+                  "location": [
+                    1930,
+                    1935
+                  ],
+                  "entities": [
+                    {
+                      "type": "EventCommunication",
+                      "text": "wrote"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "partOf",
+              "sentence": "And every order is backed by a Google guarantee, which means you can rely on Google's customer support, and we'll have your back for easy returns and refunds.",
+              "score": 0.850065,
+              "arguments": [
+                {
+                  "text": "customer",
+                  "location": [
+                    2248,
+                    2256
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "customer",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "Google",
+                  "location": [
+                    2239,
+                    2245
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Redesigns Google Shopping",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "agentOf",
+              "sentence": "As one SEO writer noted, \"This is a significant piece of Google's strategy to push back on Amazon is to establish partnerships with retailers and provide universal checkout.",
+              "score": 0.994171,
+              "arguments": [
+                {
+                  "text": "writer",
+                  "location": [
+                    2927,
+                    2933
+                  ],
+                  "entities": [
+                    {
+                      "type": "Person",
+                      "text": "writer"
+                    }
+                  ]
+                },
+                {
+                  "text": "noted",
+                  "location": [
+                    2934,
+                    2939
+                  ],
+                  "entities": [
+                    {
+                      "type": "EventCommunication",
+                      "text": "noted"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "keywords": [
+            {
+              "text": "Marketing Google Redesigns Google Shopping",
+              "sentiment": {
+                "score": 0.628618,
+                "label": "positive"
+              },
+              "relevance": 0.940787,
+              "count": 1
+            },
+            {
+              "text": "Google Shopping",
+              "sentiment": {
+                "score": 0.685697,
+                "mixed": "1",
+                "label": "positive"
+              },
+              "relevance": 0.656817,
+              "count": 9
+            },
+            {
+              "text": "updates features",
+              "sentiment": {
+                "score": 0.628618,
+                "label": "positive"
+              },
+              "relevance": 0.626987,
+              "count": 1
+            },
+            {
+              "text": "massive number of retailers",
+              "sentiment": {
+                "score": -0.758457,
+                "label": "negative"
+              },
+              "relevance": 0.606648,
+              "count": 1
+            },
+            {
+              "text": "New Options",
+              "sentiment": {
+                "score": 0.628618,
+                "label": "positive"
+              },
+              "relevance": 0.577201,
+              "count": 1
+            },
+            {
+              "text": "Getty Images",
+              "sentiment": {
+                "score": 0.744561,
+                "label": "positive"
+              },
+              "relevance": 0.568526,
+              "count": 1
+            },
+            {
+              "text": "new Google Shopping homepage",
+              "sentiment": {
+                "score": 0.749839,
+                "label": "positive"
+              },
+              "relevance": 0.565094,
+              "count": 1
+            },
+            {
+              "text": "New redesign",
+              "sentiment": {
+                "score": 0.628618,
+                "label": "positive"
+              },
+              "relevance": 0.554985,
+              "count": 1
+            },
+            {
+              "text": "Google’s offerings",
+              "sentiment": {
+                "score": 0.749839,
+                "label": "positive"
+              },
+              "relevance": 0.550226,
+              "count": 1
+            },
+            {
+              "text": "checkout process",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.549062,
+              "count": 1
+            },
+            {
+              "text": "easy returns",
+              "sentiment": {
+                "score": 0.80493,
+                "label": "positive"
+              },
+              "relevance": 0.547093,
+              "count": 1
+            },
+            {
+              "text": "online ad offerings",
+              "sentiment": {
+                "score": 0.90471,
+                "label": "positive"
+              },
+              "relevance": 0.546881,
+              "count": 1
+            },
+            {
+              "text": "SEO writer",
+              "sentiment": {
+                "score": 0.932673,
+                "label": "positive"
+              },
+              "relevance": 0.545779,
+              "count": 1
+            },
+            {
+              "text": "Google",
+              "sentiment": {
+                "score": 0.765497,
+                "label": "positive"
+              },
+              "relevance": 0.538895,
+              "count": 10
+            },
+            {
+              "text": "Google guarantee",
+              "sentiment": {
+                "score": 0.833706,
+                "label": "positive"
+              },
+              "relevance": 0.532888,
+              "count": 2
+            },
+            {
+              "text": "narrow search options",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.532398,
+              "count": 1
+            },
+            {
+              "text": "comprehensive showcase of potential sellers",
+              "sentiment": {
+                "score": 0.853021,
+                "label": "positive"
+              },
+              "relevance": 0.531887,
+              "count": 1
+            },
+            {
+              "text": "online sales account",
+              "sentiment": {
+                "score": 0.744561,
+                "label": "positive"
+              },
+              "relevance": 0.531061,
+              "count": 1
+            },
+            {
+              "text": "needs of an online shopper",
+              "sentiment": {
+                "score": 0.803077,
+                "label": "positive"
+              },
+              "relevance": 0.529452,
+              "count": 1
+            },
+            {
+              "text": "significant impact",
+              "sentiment": {
+                "score": 0.927512,
+                "label": "positive"
+              },
+              "relevance": 0.529228,
+              "count": 1
+            },
+            {
+              "text": "target audience",
+              "sentiment": {
+                "score": -0.450375,
+                "label": "negative"
+              },
+              "relevance": 0.524956,
+              "count": 1
+            },
+            {
+              "text": "products",
+              "sentiment": {
+                "score": 0.474508,
+                "mixed": "1",
+                "label": "positive"
+              },
+              "relevance": 0.524746,
+              "count": 4
+            },
+            {
+              "text": "holiday shoppers",
+              "sentiment": {
+                "score": 0.543886,
+                "label": "positive"
+              },
+              "relevance": 0.523734,
+              "count": 1
+            },
+            {
+              "text": "business owners",
+              "sentiment": {
+                "score": 0.667766,
+                "label": "positive"
+              },
+              "relevance": 0.523131,
+              "count": 1
+            },
+            {
+              "text": "Google Shopping page",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.519715,
+              "count": 1
+            },
+            {
+              "text": "Consumers",
+              "sentiment": {
+                "score": 0.628618,
+                "label": "positive"
+              },
+              "relevance": 0.518337,
+              "count": 4
+            },
+            {
+              "text": "customers",
+              "sentiment": {
+                "score": 0.527319,
+                "mixed": "1",
+                "label": "positive"
+              },
+              "relevance": 0.517825,
+              "count": 4
+            },
+            {
+              "text": "Businesses",
+              "sentiment": {
+                "score": 0.628618,
+                "label": "positive"
+              },
+              "relevance": 0.516552,
+              "count": 3
+            },
+            {
+              "text": "local retailers",
+              "sentiment": {
+                "score": 0.667766,
+                "label": "positive"
+              },
+              "relevance": 0.515842,
+              "count": 1
+            },
+            {
+              "text": "Users",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.515119,
+              "count": 2
+            },
+            {
+              "text": "significant portion of the company",
+              "sentiment": {
+                "score": 0.744561,
+                "label": "positive"
+              },
+              "relevance": 0.515007,
+              "count": 1
+            },
+            {
+              "text": "price track",
+              "sentiment": {
+                "score": 0.628618,
+                "label": "positive"
+              },
+              "relevance": 0.514024,
+              "count": 2
+            },
+            {
+              "text": "retailers",
+              "sentiment": {
+                "score": 0.57704,
+                "mixed": "1",
+                "label": "positive"
+              },
+              "relevance": 0.513512,
+              "count": 4
+            },
+            {
+              "text": "reasons",
+              "sentiment": {
+                "score": 0.663509,
+                "label": "positive"
+              },
+              "relevance": 0.513038,
+              "count": 1
+            },
+            {
+              "text": "lot of features",
+              "sentiment": {
+                "score": 0.663509,
+                "label": "positive"
+              },
+              "relevance": 0.512713,
+              "count": 1
+            },
+            {
+              "text": "useful product suggestions",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.512429,
+              "count": 1
+            },
+            {
+              "text": "information",
+              "sentiment": {
+                "score": 0.756038,
+                "label": "positive"
+              },
+              "relevance": 0.512039,
+              "count": 2
+            },
+            {
+              "text": "purchases",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.511653,
+              "count": 1
+            },
+            {
+              "text": "holiday shopping season",
+              "sentiment": {
+                "score": 0.861369,
+                "label": "positive"
+              },
+              "relevance": 0.511479,
+              "count": 1
+            },
+            {
+              "text": "redesign",
+              "sentiment": {
+                "score": 0.689942,
+                "label": "positive"
+              },
+              "relevance": 0.511109,
+              "count": 1
+            },
+            {
+              "text": "post",
+              "sentiment": {
+                "score": 0.689942,
+                "label": "positive"
+              },
+              "relevance": 0.510485,
+              "count": 1
+            },
+            {
+              "text": "feature",
+              "sentiment": {
+                "score": 0.543886,
+                "label": "positive"
+              },
+              "relevance": 0.509824,
+              "count": 1
+            },
+            {
+              "text": "Google’s customer support",
+              "sentiment": {
+                "score": 0.80493,
+                "label": "positive"
+              },
+              "relevance": 0.508841,
+              "count": 1
+            },
+            {
+              "text": "checkout",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.508553,
+              "count": 2
+            },
+            {
+              "text": "shift",
+              "sentiment": {
+                "score": 0.927512,
+                "label": "positive"
+              },
+              "relevance": 0.50843,
+              "count": 1
+            },
+            {
+              "text": "item",
+              "sentiment": {
+                "score": -0.758457,
+                "label": "negative"
+              },
+              "relevance": 0.508269,
+              "count": 2
+            },
+            {
+              "text": "product",
+              "sentiment": {
+                "score": 0.853021,
+                "label": "positive"
+              },
+              "relevance": 0.508255,
+              "count": 1
+            },
+            {
+              "text": "next month",
+              "sentiment": {
+                "score": 0.667766,
+                "label": "positive"
+              },
+              "relevance": 0.508149,
+              "count": 1
+            },
+            {
+              "text": "order",
+              "sentiment": {
+                "score": 0.80493,
+                "label": "positive"
+              },
+              "relevance": 0.507762,
+              "count": 1
+            },
+            {
+              "text": "strategy",
+              "sentiment": {
+                "score": 0.932673,
+                "label": "positive"
+              },
+              "relevance": 0.507381,
+              "count": 1
+            }
+          ]
+        },
+        "extracted_metadata": {
+          "sha1": "d6a2f11fbec5f3c97686761964c6053796f923a2",
+          "filename": "1570569037342.zip-2c3432e3bc84da8e59dbae902bd45976.xml",
+          "file_type": "json"
+        },
+        "title": "Google Redesigns Google Shopping and Adds New Options For Businesses and Consumers | Inc.com"
+      },
+      {
+        "id": "DX3l9nR4MDS5FxsfzML9eIhffSTm4msgf85pXI31JDeIqAIDqr0nWufXKKTDXyRI",
+        "result_metadata": {
+          "score": 7.7175117
+        },
+        "author": "Trending Desk",
+        "enriched_title": {
+          "entities": [
+            {
+              "count": 1,
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "text": "Google",
+              "relevance": 0.33,
+              "type": "Company",
+              "disambiguation": {
+                "subtype": [
+                  "AcademicInstitution",
+                  "AwardPresentingOrganization",
+                  "OperatingSystemDeveloper",
+                  "ProgrammingLanguageDeveloper",
+                  "SoftwareDeveloper",
+                  "VentureFundedCompany"
+                ],
+                "name": "Google",
+                "dbpedia_resource": "http://dbpedia.org/resource/Google"
+              }
+            }
+          ],
+          "sentiment": {
+            "document": {
+              "score": 0,
+              "label": "neutral"
+            }
+          },
+          "semantic_roles": [],
+          "concepts": [],
+          "categories": [
+            {
+              "score": 0.868651,
+              "label": "/technology and computing/internet technology/web search"
+            },
+            {
+              "score": 0.751753,
+              "label": "/technology and computing/software/graphics software"
+            },
+            {
+              "score": 0.744205,
+              "label": "/technology and computing/consumer electronics/camera and photo equipment/cameras and camcorders"
+            }
+          ],
+          "relations": [],
+          "keywords": [
+            {
+              "text": "Google Pixel",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.974759,
+              "count": 1
+            },
+            {
+              "text": "Promo Previews Face Unlock",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.489616,
+              "count": 1
+            },
+            {
+              "text": "Motion Sense",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.026283,
+              "count": 1
+            }
+          ]
+        },
+        "crawl_date": "2019-10-07T18:06:41Z",
+        "url": "https://www.news18.com/news/tech/google-pixel-4-promo-previews-face-unlock-motion-sense-and-more-2336825.html",
+        "host": "news18.com",
+        "text": "According to previous media reports, Google has been able to reduce the back-end size of Google Assistant from 100GB to 0.5GB, allowing Google to move much of the app’s functionality on-device, making it faster to run. New reports suggest that users might now be able to activate Google Assistant automatically",
+        "main_image_url": "https://images.news18.com/ibnlive/uploads/2019/09/Google-Pixel-4.jpg",
+        "country": "IN",
+        "source_type": "mainstream",
+        "language": "en",
+        "publication_date": "2019-10-07T18:52:00+05:00",
+        "enriched_text": {
+          "entities": [
+            {
+              "count": 13,
+              "sentiment": {
+                "score": -0.133927,
+                "label": "negative"
+              },
+              "text": "Google",
+              "relevance": 0.92914,
+              "type": "Company",
+              "disambiguation": {
+                "subtype": [
+                  "AcademicInstitution",
+                  "AwardPresentingOrganization",
+                  "OperatingSystemDeveloper",
+                  "ProgrammingLanguageDeveloper",
+                  "SoftwareDeveloper",
+                  "VentureFundedCompany"
+                ],
+                "name": "Google",
+                "dbpedia_resource": "http://dbpedia.org/resource/Google"
+              }
+            },
+            {
+              "count": 1,
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "text": "0.5GB",
+              "relevance": 0.11904,
+              "type": "Quantity"
+            },
+            {
+              "count": 1,
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "text": "100GB",
+              "relevance": 0.11904,
+              "type": "Quantity"
+            },
+            {
+              "count": 1,
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "text": "5.7",
+              "relevance": 0.11904,
+              "type": "Quantity"
+            },
+            {
+              "count": 1,
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "text": "6.3",
+              "relevance": 0.11904,
+              "type": "Quantity"
+            }
+          ],
+          "sentiment": {
+            "document": {
+              "score": 0.55666,
+              "label": "positive"
+            }
+          },
+          "semantic_roles": [
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": "Google is set to launch the flagship Pixel 4 series on October 15.",
+              "object": {
+                "text": "to launch the flagship Pixel 4 series",
+                "keywords": [
+                  {
+                    "text": "flagship Pixel"
+                  },
+                  {
+                    "text": "series"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "set",
+                  "tense": "past"
+                },
+                "text": "set",
+                "normalized": "set"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": "Google is set to launch the flagship Pixel 4 series on October 15.",
+              "object": {
+                "text": "the flagship Pixel 4 series on October 15",
+                "keywords": [
+                  {
+                    "text": "flagship Pixel"
+                  },
+                  {
+                    "text": "series"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "launch",
+                  "tense": "future"
+                },
+                "text": "is set to launch",
+                "normalized": "be set to launch"
+              }
+            },
+            {
+              "subject": {
+                "text": "consumers",
+                "keywords": [
+                  {
+                    "text": "consumers"
+                  }
+                ]
+              },
+              "sentence": " But thanks to the innumerable leaks, consumers pretty much know how the new Pixel smartphones would look and feel like.",
+              "object": {
+                "text": "how the new Pixel smartphones would look and feel like",
+                "keywords": [
+                  {
+                    "text": "new Pixel smartphones"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "know",
+                  "tense": "present"
+                },
+                "text": "know",
+                "normalized": "know"
+              }
+            },
+            {
+              "subject": {
+                "text": "The latest in the series of leaks",
+                "keywords": [
+                  {
+                    "text": "leaks"
+                  },
+                  {
+                    "text": "series"
+                  }
+                ]
+              },
+              "sentence": " The latest in the series of leaks are some of the promotional videos of the Google Pixel 4 line-up that reveal how the Face unlock, Motion Sense and Google Assistant will work on the new devices.",
+              "object": {
+                "text": "some of the promotional videos of the Google Pixel",
+                "keywords": [
+                  {
+                    "text": "Google Pixel"
+                  },
+                  {
+                    "text": "promotional videos"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "present"
+                },
+                "text": "are",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "Motion Sense and Google Assistant",
+                "keywords": [
+                  {
+                    "text": "Google Assistant"
+                  },
+                  {
+                    "text": "Motion Sense"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " The latest in the series of leaks are some of the promotional videos of the Google Pixel 4 line-up that reveal how the Face unlock, Motion Sense and Google Assistant will work on the new devices.",
+              "action": {
+                "verb": {
+                  "text": "work",
+                  "tense": "future"
+                },
+                "text": "will work",
+                "normalized": "will work"
+              }
+            },
+            {
+              "subject": {
+                "text": "the Face Unlock feature on the Google Pixel 4 smartphone",
+                "keywords": [
+                  {
+                    "text": "Face Unlock feature"
+                  },
+                  {
+                    "text": "Google Pixel"
+                  },
+                  {
+                    "text": "smartphone"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " According to reports, the Face Unlock feature on the Google Pixel 4 smartphone will be using a 3D mapping system to securely unlock the smartphone and verify the user’s identity while making mobile payments.",
+              "object": {
+                "text": "a 3D mapping system",
+                "keywords": [
+                  {
+                    "text": "3D mapping"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "use",
+                  "tense": "future"
+                },
+                "text": "will be using",
+                "normalized": "will be use"
+              }
+            },
+            {
+              "subject": {
+                "text": "the smartphone",
+                "keywords": [
+                  {
+                    "text": "smartphone"
+                  }
+                ]
+              },
+              "sentence": " According to reports, the Face Unlock feature on the Google Pixel 4 smartphone will be using a 3D mapping system to securely unlock the smartphone and verify the user’s identity while making mobile payments.",
+              "object": {
+                "text": "a 3D mapping system",
+                "keywords": [
+                  {
+                    "text": "3D mapping"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "unlock",
+                  "tense": "present"
+                },
+                "text": "unlock",
+                "normalized": "unlock"
+              }
+            },
+            {
+              "subject": {
+                "text": "the user’s identity",
+                "keywords": [
+                  {
+                    "text": "user"
+                  },
+                  {
+                    "text": "identity"
+                  }
+                ]
+              },
+              "sentence": " According to reports, the Face Unlock feature on the Google Pixel 4 smartphone will be using a 3D mapping system to securely unlock the smartphone and verify the user’s identity while making mobile payments.",
+              "action": {
+                "verb": {
+                  "text": "verify",
+                  "tense": "present"
+                },
+                "text": "the smartphone and verify",
+                "normalized": "the smartphone and verify"
+              }
+            },
+            {
+              "subject": {
+                "text": "the much"
+              },
+              "sentence": " Also, the much talked about Motion Sense feature, a technology backed by Google’s Soli radar-based chips, will allow people to just use a wave of their hand to silence calls, skip streaming content, or dismiss alarms and timers.",
+              "object": {
+                "text": "about Motion Sense feature, a technology backed by Google’s Soli radar-based chips",
+                "keywords": [
+                  {
+                    "text": "Soli radar-based chips"
+                  },
+                  {
+                    "text": "Motion Sense feature"
+                  },
+                  {
+                    "text": "Google"
+                  },
+                  {
+                    "text": "technology"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "talk",
+                  "tense": "past"
+                },
+                "text": "talked",
+                "normalized": "talk"
+              }
+            },
+            {
+              "subject": {
+                "text": "by Google’s Soli radar-based chips",
+                "keywords": [
+                  {
+                    "text": "Soli radar-based chips"
+                  },
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Also, the much talked about Motion Sense feature, a technology backed by Google’s Soli radar-based chips, will allow people to just use a wave of their hand to silence calls, skip streaming content, or dismiss alarms and timers.",
+              "object": {
+                "text": "a technology",
+                "keywords": [
+                  {
+                    "text": "technology"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "back",
+                  "tense": "past"
+                },
+                "text": "backed",
+                "normalized": "back"
+              }
+            },
+            {
+              "subject": {
+                "text": "the much talked about Motion Sense feature, a technology backed by Google’s Soli radar-based chips,",
+                "keywords": [
+                  {
+                    "text": "Soli radar-based chips"
+                  },
+                  {
+                    "text": "Motion Sense feature"
+                  },
+                  {
+                    "text": "Google"
+                  },
+                  {
+                    "text": "technology"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Also, the much talked about Motion Sense feature, a technology backed by Google’s Soli radar-based chips, will allow people to just use a wave of their hand to silence calls, skip streaming content, or dismiss alarms and timers.",
+              "object": {
+                "text": "people to just use a wave of their hand to silence calls, skip streaming content, or dismiss alarms and timers",
+                "keywords": [
+                  {
+                    "text": "skip"
+                  },
+                  {
+                    "text": "timers"
+                  },
+                  {
+                    "text": "alarms"
+                  },
+                  {
+                    "text": "wave"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "allow",
+                  "tense": "future"
+                },
+                "text": "will allow",
+                "normalized": "will allow"
+              }
+            },
+            {
+              "subject": {
+                "text": "people",
+                "keywords": [
+                  {
+                    "text": "people"
+                  }
+                ]
+              },
+              "sentence": " Also, the much talked about Motion Sense feature, a technology backed by Google’s Soli radar-based chips, will allow people to just use a wave of their hand to silence calls, skip streaming content, or dismiss alarms and timers.",
+              "object": {
+                "text": "calls",
+                "keywords": [
+                  {
+                    "text": "calls"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "silence",
+                  "tense": "future"
+                },
+                "text": "to silence",
+                "normalized": "to silence"
+              }
+            },
+            {
+              "subject": {
+                "text": "people",
+                "keywords": [
+                  {
+                    "text": "people"
+                  }
+                ]
+              },
+              "sentence": " Also, the much talked about Motion Sense feature, a technology backed by Google’s Soli radar-based chips, will allow people to just use a wave of their hand to silence calls, skip streaming content, or dismiss alarms and timers.",
+              "object": {
+                "text": "alarms and timers",
+                "keywords": [
+                  {
+                    "text": "timers"
+                  },
+                  {
+                    "text": "alarms"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "dismiss",
+                  "tense": "present"
+                },
+                "text": "dismiss",
+                "normalized": "dismiss"
+              }
+            },
+            {
+              "subject": {
+                "text": "Another"
+              },
+              "sentence": " Another leaked promotional video also highlights the new Google Assistant, which is being offered locally in Google Pixel 4 phones for the first time.",
+              "object": {
+                "text": "promotional video",
+                "keywords": [
+                  {
+                    "text": "promotional video"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "leak",
+                  "tense": "past"
+                },
+                "text": "leaked",
+                "normalized": "leak"
+              }
+            },
+            {
+              "subject": {
+                "text": "Another leaked promotional video",
+                "keywords": [
+                  {
+                    "text": "promotional video"
+                  }
+                ]
+              },
+              "sentence": " Another leaked promotional video also highlights the new Google Assistant, which is being offered locally in Google Pixel 4 phones for the first time.",
+              "object": {
+                "text": "the new Google Assistant, which is being offered locally in Google Pixel 4 phones for the first time",
+                "keywords": [
+                  {
+                    "text": "new Google Assistant"
+                  },
+                  {
+                    "text": "Google Pixel"
+                  },
+                  {
+                    "text": "phones"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  },
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "highlight",
+                  "tense": "present"
+                },
+                "text": "highlights",
+                "normalized": "highlight"
+              }
+            },
+            {
+              "subject": {
+                "text": "the new Google Assistant",
+                "keywords": [
+                  {
+                    "text": "new Google Assistant"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Another leaked promotional video also highlights the new Google Assistant, which is being offered locally in Google Pixel 4 phones for the first time.",
+              "object": {
+                "text": "being offered locally in Google Pixel 4 phones",
+                "keywords": [
+                  {
+                    "text": "Google Pixel"
+                  },
+                  {
+                    "text": "phones"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "present"
+                },
+                "text": "is",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "the new Google Assistant",
+                "keywords": [
+                  {
+                    "text": "new Google Assistant"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Another leaked promotional video also highlights the new Google Assistant, which is being offered locally in Google Pixel 4 phones for the first time.",
+              "object": {
+                "text": "offered locally in Google Pixel 4 phones",
+                "keywords": [
+                  {
+                    "text": "Google Pixel"
+                  },
+                  {
+                    "text": "phones"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "present"
+                },
+                "text": "being",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "the new Google Assistant",
+                "keywords": [
+                  {
+                    "text": "new Google Assistant"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Another leaked promotional video also highlights the new Google Assistant, which is being offered locally in Google Pixel 4 phones for the first time.",
+              "action": {
+                "verb": {
+                  "text": "offer",
+                  "tense": "past"
+                },
+                "text": "is being offered",
+                "normalized": "be be offer"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google Assistant",
+                "keywords": [
+                  {
+                    "text": "Google Assistant"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Earlier, when Google Assistant was activated, a screen used to pop up from the bottom of the display which used to take up about 25 per cent of the total space before capturing the full screen.",
+              "object": {
+                "text": "activated"
+              },
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "past"
+                },
+                "text": "was",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "a screen",
+                "keywords": [
+                  {
+                    "text": "screen"
+                  }
+                ]
+              },
+              "sentence": " Earlier, when Google Assistant was activated, a screen used to pop up from the bottom of the display which used to take up about 25 per cent of the total space before capturing the full screen.",
+              "object": {
+                "text": "to pop up from the bottom of the display which used to take up about 25 per cent of the total space before capturing the full screen",
+                "keywords": [
+                  {
+                    "text": "total space"
+                  },
+                  {
+                    "text": "cent"
+                  },
+                  {
+                    "text": "display"
+                  },
+                  {
+                    "text": "screen"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "use",
+                  "tense": "past"
+                },
+                "text": "used",
+                "normalized": "use"
+              }
+            },
+            {
+              "subject": {
+                "text": "up about 25 per cent of the total space",
+                "keywords": [
+                  {
+                    "text": "cent"
+                  },
+                  {
+                    "text": "total space"
+                  }
+                ]
+              },
+              "sentence": " Earlier, when Google Assistant was activated, a screen used to pop up from the bottom of the display which used to take up about 25 per cent of the total space before capturing the full screen.",
+              "action": {
+                "verb": {
+                  "text": "take",
+                  "tense": "future"
+                },
+                "text": "to take",
+                "normalized": "to take"
+              }
+            },
+            {
+              "subject": {
+                "text": "the new Google Assistant interface",
+                "keywords": [
+                  {
+                    "text": "new Google Assistant"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Now, the new Google Assistant interface reportedly takes up a very small slice of the display and then goes on to cover about 40 per cent of the screen.",
+              "object": {
+                "text": "a very small slice of the display",
+                "keywords": [
+                  {
+                    "text": "small slice"
+                  },
+                  {
+                    "text": "display"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "take",
+                  "tense": "present"
+                },
+                "text": "takes",
+                "normalized": "take"
+              }
+            },
+            {
+              "subject": {
+                "text": "the new Google Assistant interface",
+                "keywords": [
+                  {
+                    "text": "new Google Assistant"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " Now, the new Google Assistant interface reportedly takes up a very small slice of the display and then goes on to cover about 40 per cent of the screen.",
+              "action": {
+                "verb": {
+                  "text": "go",
+                  "tense": "present"
+                },
+                "text": "goes",
+                "normalized": "go"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " According to previous media reports, Google has been able to reduce the back-end size of Google Assistant from 100GB to 0.5GB, allowing Google to move much of the app’s functionality on-device, making it faster to run.",
+              "object": {
+                "text": "the back-end size of Google Assistant",
+                "keywords": [
+                  {
+                    "text": "Google Assistant"
+                  },
+                  {
+                    "text": "back-end size"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "reduce",
+                  "tense": "future"
+                },
+                "text": "to reduce",
+                "normalized": "to reduce"
+              }
+            },
+            {
+              "subject": {
+                "text": "functionality",
+                "keywords": [
+                  {
+                    "text": "functionality"
+                  }
+                ]
+              },
+              "sentence": " According to previous media reports, Google has been able to reduce the back-end size of Google Assistant from 100GB to 0.5GB, allowing Google to move much of the app’s functionality on-device, making it faster to run.",
+              "object": {
+                "text": "the app",
+                "keywords": [
+                  {
+                    "text": "app"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "has",
+                  "tense": "present"
+                },
+                "text": "s",
+                "normalized": "s"
+              }
+            },
+            {
+              "subject": {
+                "text": "Google",
+                "keywords": [
+                  {
+                    "text": "Google"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "sentence": " According to previous media reports, Google has been able to reduce the back-end size of Google Assistant from 100GB to 0.5GB, allowing Google to move much of the app’s functionality on-device, making it faster to run.",
+              "object": {
+                "text": "to run"
+              },
+              "action": {
+                "verb": {
+                  "text": "make",
+                  "tense": "present"
+                },
+                "text": "making",
+                "normalized": "make"
+              }
+            },
+            {
+              "subject": {
+                "text": "New reports",
+                "keywords": [
+                  {
+                    "text": "New reports"
+                  }
+                ]
+              },
+              "sentence": " New reports suggest that users might now be able to activate Google Assistant automatically by just lifting the phone off the table.",
+              "object": {
+                "text": "that users might now be able to activate Google Assistant automatically by just lifting the phone off the table",
+                "keywords": [
+                  {
+                    "text": "Google Assistant"
+                  },
+                  {
+                    "text": "users"
+                  },
+                  {
+                    "text": "phone"
+                  },
+                  {
+                    "text": "table"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "suggest",
+                  "tense": "present"
+                },
+                "text": "suggest",
+                "normalized": "suggest"
+              }
+            },
+            {
+              "subject": {
+                "text": "users",
+                "keywords": [
+                  {
+                    "text": "users"
+                  }
+                ]
+              },
+              "sentence": " New reports suggest that users might now be able to activate Google Assistant automatically by just lifting the phone off the table.",
+              "action": {
+                "verb": {
+                  "text": "be",
+                  "tense": "present"
+                },
+                "text": "be",
+                "normalized": "be"
+              }
+            },
+            {
+              "subject": {
+                "text": "users",
+                "keywords": [
+                  {
+                    "text": "users"
+                  }
+                ]
+              },
+              "sentence": " New reports suggest that users might now be able to activate Google Assistant automatically by just lifting the phone off the table.",
+              "object": {
+                "text": "Google Assistant",
+                "keywords": [
+                  {
+                    "text": "Google Assistant"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Company",
+                    "text": "Google",
+                    "disambiguation": {
+                      "subtype": [
+                        "AcademicInstitution",
+                        "AwardPresentingOrganization",
+                        "OperatingSystemDeveloper",
+                        "ProgrammingLanguageDeveloper",
+                        "SoftwareDeveloper",
+                        "VentureFundedCompany"
+                      ],
+                      "name": "Google",
+                      "dbpedia_resource": "http://dbpedia.org/resource/Google"
+                    }
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "activate",
+                  "tense": "future"
+                },
+                "text": "to activate",
+                "normalized": "to activate"
+              }
+            },
+            {
+              "subject": {
+                "text": "users",
+                "keywords": [
+                  {
+                    "text": "users"
+                  }
+                ]
+              },
+              "sentence": " New reports suggest that users might now be able to activate Google Assistant automatically by just lifting the phone off the table.",
+              "object": {
+                "text": "the phone",
+                "keywords": [
+                  {
+                    "text": "phone"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "lift",
+                  "tense": "present"
+                },
+                "text": "just lifting",
+                "normalized": "just lift"
+              }
+            },
+            {
+              "subject": {
+                "text": "the Pixel 4 series",
+                "keywords": [
+                  {
+                    "text": "Pixel"
+                  },
+                  {
+                    "text": "series"
+                  }
+                ]
+              },
+              "sentence": " Apart from that, the Pixel 4 series is expected to have a 90Hz display, improved dual-SIM capabilities and an Android 10 operating system.",
+              "object": {
+                "text": "a 90Hz display, improved dual-SIM capabilities and an Android 10 operating system",
+                "keywords": [
+                  {
+                    "text": "dual-SIM capabilities"
+                  },
+                  {
+                    "text": "Android"
+                  },
+                  {
+                    "text": "display"
+                  }
+                ],
+                "entities": []
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "future"
+                },
+                "text": "is expected to have",
+                "normalized": "be expect to have"
+              }
+            },
+            {
+              "subject": {
+                "text": "a notch and two speaker grills on the edge on either side of the USB-C port",
+                "keywords": [
+                  {
+                    "text": "speaker grills"
+                  },
+                  {
+                    "text": "notch"
+                  },
+                  {
+                    "text": "USB-C port"
+                  },
+                  {
+                    "text": "edge"
+                  }
+                ]
+              },
+              "sentence": " Other leaked features include a notch and two speaker grills on the edge on either side of the USB-C port.",
+              "object": {
+                "text": "Other leaked features",
+                "keywords": [
+                  {
+                    "text": "features"
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "include",
+                  "tense": "present"
+                },
+                "text": "include",
+                "normalized": "include"
+              }
+            },
+            {
+              "subject": {
+                "text": "The smaller Pixel 4",
+                "keywords": [
+                  {
+                    "text": "smaller Pixel"
+                  }
+                ]
+              },
+              "sentence": " The smaller Pixel 4 should get a 5.7\" 1080p+ OLED display and a 2,800 mAh battery, while the Pixel 4 XL should have a 6.3\" 1440p+ OLED panel with a 3,700 mAh battery.",
+              "object": {
+                "text": "a 5.7\" 1080p+ OLED display and a 2,800 mAh battery",
+                "keywords": [
+                  {
+                    "text": "mAh battery"
+                  },
+                  {
+                    "text": "OLED display"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Quantity",
+                    "text": "5.7\""
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "get",
+                  "tense": "future"
+                },
+                "text": "should get",
+                "normalized": "should get"
+              }
+            },
+            {
+              "subject": {
+                "text": "the Pixel 4 XL",
+                "keywords": [
+                  {
+                    "text": "XL"
+                  },
+                  {
+                    "text": "Pixel"
+                  }
+                ]
+              },
+              "sentence": " The smaller Pixel 4 should get a 5.7\" 1080p+ OLED display and a 2,800 mAh battery, while the Pixel 4 XL should have a 6.3\" 1440p+ OLED panel with a 3,700 mAh battery.",
+              "object": {
+                "text": "a 6.3\" 1440p+ OLED panel",
+                "keywords": [
+                  {
+                    "text": "OLED panel"
+                  }
+                ],
+                "entities": [
+                  {
+                    "type": "Quantity",
+                    "text": "6.3\""
+                  }
+                ]
+              },
+              "action": {
+                "verb": {
+                  "text": "have",
+                  "tense": "future"
+                },
+                "text": "should have",
+                "normalized": "should have"
+              }
+            }
+          ],
+          "concepts": [
+            {
+              "text": "Mobile phone",
+              "relevance": 0.952666,
+              "dbpedia_resource": "http://dbpedia.org/resource/Mobile_phone"
+            },
+            {
+              "text": "Smartphone",
+              "relevance": 0.840437,
+              "dbpedia_resource": "http://dbpedia.org/resource/Smartphone"
+            },
+            {
+              "text": "Windows Mobile",
+              "relevance": 0.838215,
+              "dbpedia_resource": "http://dbpedia.org/resource/Windows_Mobile"
+            },
+            {
+              "text": "Symbian OS",
+              "relevance": 0.717888,
+              "dbpedia_resource": "http://dbpedia.org/resource/Symbian_OS"
+            },
+            {
+              "text": "Nexus One",
+              "relevance": 0.711513,
+              "dbpedia_resource": "http://dbpedia.org/resource/Nexus_One"
+            },
+            {
+              "text": "BlackBerry",
+              "relevance": 0.59933,
+              "dbpedia_resource": "http://dbpedia.org/resource/BlackBerry"
+            },
+            {
+              "text": "Display technology",
+              "relevance": 0.593309,
+              "dbpedia_resource": "http://dbpedia.org/resource/Display_technology"
+            },
+            {
+              "text": "Android",
+              "relevance": 0.580424,
+              "dbpedia_resource": "http://dbpedia.org/resource/Android_(operating_system)"
+            },
+            {
+              "text": "Information appliance",
+              "relevance": 0.575792,
+              "dbpedia_resource": "http://dbpedia.org/resource/Information_appliance"
+            },
+            {
+              "text": "Organic LED",
+              "relevance": 0.5607,
+              "dbpedia_resource": "http://dbpedia.org/resource/Organic_LED"
+            }
+          ],
+          "categories": [
+            {
+              "score": 0.954615,
+              "label": "/technology and computing/consumer electronics/tv and video equipment/televisions/lcd tvs"
+            },
+            {
+              "score": 0.9347,
+              "label": "/technology and computing/operating systems"
+            },
+            {
+              "score": 0.928824,
+              "label": "/technology and computing/tech news"
+            }
+          ],
+          "relations": [
+            {
+              "type": "productOf",
+              "sentence": "The latest in the series of leaks are some of the promotional videos of the Google Pixel 4 line-up that reveal how the Face unlock, Motion Sense and Google Assistant will work on the new devices.",
+              "score": 0.653455,
+              "arguments": [
+                {
+                  "text": "Face unlock",
+                  "location": [
+                    306,
+                    317
+                  ],
+                  "entities": [
+                    {
+                      "type": "Product",
+                      "text": "Face unlock"
+                    }
+                  ]
+                },
+                {
+                  "text": "Google Pixel 4 line-up",
+                  "location": [
+                    263,
+                    285
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Pixel 4 smartphone"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "managerOf",
+              "sentence": "The latest in the series of leaks are some of the promotional videos of the Google Pixel 4 line-up that reveal how the Face unlock, Motion Sense and Google Assistant will work on the new devices.",
+              "score": 0.425875,
+              "arguments": [
+                {
+                  "text": "Assistant",
+                  "location": [
+                    343,
+                    352
+                  ],
+                  "entities": [
+                    {
+                      "type": "Person",
+                      "text": "Assistant"
+                    }
+                  ]
+                },
+                {
+                  "text": "Google",
+                  "location": [
+                    336,
+                    342
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Pixel 4 smartphone"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "managerOf",
+              "sentence": "According to previous media reports, Google has been able to reduce the back-end size of Google Assistant from 100GB to 0.5GB, allowing Google to move much of the app's functionality on-device, making it faster to run.",
+              "score": 0.405155,
+              "arguments": [
+                {
+                  "text": "Assistant",
+                  "location": [
+                    1414,
+                    1423
+                  ],
+                  "entities": [
+                    {
+                      "type": "Person",
+                      "text": "Assistant"
+                    }
+                  ]
+                },
+                {
+                  "text": "Google",
+                  "location": [
+                    1407,
+                    1413
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Pixel 4 smartphone"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "employedBy",
+              "sentence": "Now, the new Google Assistant interface reportedly takes up a very small slice of the display and then goes on to cover about 40 per cent of the screen.",
+              "score": 0.541158,
+              "arguments": [
+                {
+                  "text": "Assistant",
+                  "location": [
+                    1185,
+                    1194
+                  ],
+                  "entities": [
+                    {
+                      "type": "Person",
+                      "text": "Assistant"
+                    }
+                  ]
+                },
+                {
+                  "text": "Google",
+                  "location": [
+                    1178,
+                    1184
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Pixel 4 smartphone"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "agentOf",
+              "sentence": "According to previous media reports, Google has been able to reduce the back-end size of Google Assistant from 100GB to 0.5GB, allowing Google to move much of the app's functionality on-device, making it faster to run.",
+              "score": 0.961366,
+              "arguments": [
+                {
+                  "text": "media",
+                  "location": [
+                    1340,
+                    1345
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "media",
+                      "disambiguation": {
+                        "subtype": [
+                          "Commercial"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "text": "reports",
+                  "location": [
+                    1346,
+                    1353
+                  ],
+                  "entities": [
+                    {
+                      "type": "EventCommunication",
+                      "text": "reports"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "productOf",
+              "sentence": "Apart from that, the Pixel 4 series is expected to have a 90Hz display, improved dual-SIM capabilities and an Android 10 operating system.",
+              "score": 0.791282,
+              "arguments": [
+                {
+                  "text": "Android",
+                  "location": [
+                    1780,
+                    1787
+                  ],
+                  "entities": [
+                    {
+                      "type": "Product",
+                      "text": "Android"
+                    }
+                  ]
+                },
+                {
+                  "text": "Pixel 4",
+                  "location": [
+                    1691,
+                    1698
+                  ],
+                  "entities": [
+                    {
+                      "type": "Organization",
+                      "text": "Google Pixel 4 smartphone"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "agentOf",
+              "sentence": "Other leaked features include a notch and two speaker grills on the edge on either side of the USB-C port.",
+              "score": 0.655675,
+              "arguments": [
+                {
+                  "text": "speaker",
+                  "location": [
+                    1855,
+                    1862
+                  ],
+                  "entities": [
+                    {
+                      "type": "Person",
+                      "text": "speaker"
+                    }
+                  ]
+                },
+                {
+                  "text": "leaked",
+                  "location": [
+                    1815,
+                    1821
+                  ],
+                  "entities": [
+                    {
+                      "type": "EventCommunication",
+                      "text": "leaked"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "keywords": [
+            {
+              "text": "promotional videos of the Google Pixel",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.74271,
+              "count": 1
+            },
+            {
+              "text": "Google Assistant",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.690135,
+              "count": 3
+            },
+            {
+              "text": "flagship Pixel",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.679353,
+              "count": 1
+            },
+            {
+              "text": "innumerable leaks",
+              "sentiment": {
+                "score": 0.922885,
+                "label": "positive"
+              },
+              "relevance": 0.66503,
+              "count": 1
+            },
+            {
+              "text": "new Pixel smartphones",
+              "sentiment": {
+                "score": 0.922885,
+                "label": "positive"
+              },
+              "relevance": 0.649321,
+              "count": 1
+            },
+            {
+              "text": "Face Unlock feature",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.614785,
+              "count": 1
+            },
+            {
+              "text": "Google",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.609257,
+              "count": 3
+            },
+            {
+              "text": "Google Pixel",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.586386,
+              "count": 2
+            },
+            {
+              "text": "new Google Assistant",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.579824,
+              "count": 1
+            },
+            {
+              "text": "back-end size of Google Assistant",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.579527,
+              "count": 1
+            },
+            {
+              "text": "promotional video",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.578193,
+              "count": 1
+            },
+            {
+              "text": "previous media reports",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.573771,
+              "count": 1
+            },
+            {
+              "text": "Motion Sense",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.571183,
+              "count": 1
+            },
+            {
+              "text": "Google’s Soli radar",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.570108,
+              "count": 1
+            },
+            {
+              "text": "series of leaks",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.566402,
+              "count": 1
+            },
+            {
+              "text": "mAh battery",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.562574,
+              "count": 2
+            },
+            {
+              "text": "100GB",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.550206,
+              "count": 1
+            },
+            {
+              "text": "bottom of the display",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.546555,
+              "count": 1
+            },
+            {
+              "text": "new Google Assistant interface",
+              "sentiment": {
+                "score": 0.555183,
+                "label": "positive"
+              },
+              "relevance": 0.536778,
+              "count": 1
+            },
+            {
+              "text": "reports",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.530401,
+              "count": 1
+            },
+            {
+              "text": "small slice of the display",
+              "sentiment": {
+                "score": 0.555183,
+                "label": "positive"
+              },
+              "relevance": 0.530295,
+              "count": 1
+            },
+            {
+              "text": "thanks",
+              "sentiment": {
+                "score": 0.922885,
+                "label": "positive"
+              },
+              "relevance": 0.528846,
+              "count": 1
+            },
+            {
+              "text": "series",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.528731,
+              "count": 2
+            },
+            {
+              "text": "Motion Sense feature",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.527984,
+              "count": 1
+            },
+            {
+              "text": "new devices",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.527232,
+              "count": 1
+            },
+            {
+              "text": "Face",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.519803,
+              "count": 1
+            },
+            {
+              "text": "smartphone",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.512638,
+              "count": 2
+            },
+            {
+              "text": "line-up",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.512571,
+              "count": 1
+            },
+            {
+              "text": "technology",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.511686,
+              "count": 1
+            },
+            {
+              "text": "chips",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.509742,
+              "count": 1
+            },
+            {
+              "text": "consumers",
+              "sentiment": {
+                "score": 0.922885,
+                "label": "positive"
+              },
+              "relevance": 0.509327,
+              "count": 1
+            },
+            {
+              "text": "people",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.509014,
+              "count": 1
+            },
+            {
+              "text": "Pixel",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.508286,
+              "count": 2
+            },
+            {
+              "text": "screen",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.508237,
+              "count": 1
+            },
+            {
+              "text": "3D mapping system",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.50762,
+              "count": 1
+            },
+            {
+              "text": "notch",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.507443,
+              "count": 1
+            },
+            {
+              "text": "calls",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.506796,
+              "count": 1
+            },
+            {
+              "text": "users",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.506506,
+              "count": 1
+            },
+            {
+              "text": "edge",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.505517,
+              "count": 1
+            },
+            {
+              "text": "content",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.50455,
+              "count": 1
+            },
+            {
+              "text": "phones",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.504295,
+              "count": 1
+            },
+            {
+              "text": "Android",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.504212,
+              "count": 1
+            },
+            {
+              "text": "user’s identity",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.503667,
+              "count": 1
+            },
+            {
+              "text": "alarms",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.503095,
+              "count": 1
+            },
+            {
+              "text": "October",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.502553,
+              "count": 1
+            },
+            {
+              "text": "timers",
+              "sentiment": {
+                "score": 0.315547,
+                "label": "positive"
+              },
+              "relevance": 0.502553,
+              "count": 1
+            },
+            {
+              "text": "table",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.502553,
+              "count": 1
+            },
+            {
+              "text": "phone",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.502148,
+              "count": 1
+            },
+            {
+              "text": "device",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.50214,
+              "count": 1
+            },
+            {
+              "text": "per cent of the total space",
+              "sentiment": {
+                "score": 0,
+                "label": "neutral"
+              },
+              "relevance": 0.498576,
+              "count": 1
+            }
+          ]
+        },
+        "extracted_metadata": {
+          "sha1": "fd15d529280bccd0380bd02d4a6f180c5f9dd88f",
+          "filename": "1570471601828.zip-3e6a5b0fc5a5baae7fc58c137779cdc0.xml",
+          "file_type": "json"
+        },
+        "title": "Google Pixel 4 Promo Previews Face Unlock, Motion Sense and More",
+        "forum_title": "News18.com: CNN-News18 Breaking News India, Latest News Headlines, Live News Updates"
+      }
+    ]
+  }
+}
