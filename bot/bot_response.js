@@ -23,10 +23,15 @@ module.exports = function (controller) {
                                 bot.reply(message, '錯誤格式！');
                                 convo.repeat();
                             } else {
-                                countTxt = response.text;
-                                bot.reply(message, '正在幫您尋找 `' + response.text + '` 則有關 `' + queryTxt + '` 的新聞文章');
+                                if (parseInt(response.text) > 0 && parseInt(response.text) <= 5) {
+                                    countTxt = response.text;
+                                    bot.reply(message, '正在幫您尋找 `' + response.text + '` 則有關 `' + queryTxt + '` 的新聞文章');
+                                } else {
+                                    bot.reply(message, '請輸入 1~5');
+                                    convo.repeat();
+                                }
                             }
-
+                            
                             convo.next();
 
                         }
