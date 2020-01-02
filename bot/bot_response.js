@@ -71,8 +71,8 @@ module.exports = function (controller) {
                         // bot.reply(message, '好的，尋找中請稍後...');
 
                         const qs = queryString.stringify({ query: convo.extractResponse('query') });
-                        // const host = `https://fastloadnews.mybluemix.net`;
-                        const host = `https://60718e9c.ngrok.io`;
+                        const host = `https://fastloadnews.mybluemix.net`;
+                        // const host = `https://60718e9c.ngrok.io`;
                         // eslint-disable-next-line no-console
                         fetch(`${host}/discovery?query=${queryTxt}&count=${countTxt}`)
                             .then(apiResponse => {
