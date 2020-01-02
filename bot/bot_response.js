@@ -83,7 +83,7 @@ module.exports = function (controller) {
                                             for (let i = 0; i < parseInt(countTxt, 10); i++) {
                                                 setTimeout(() => {
                                                     bot.reply(message, `${json.result.results[i].title}\n${json.result.results[i].url}`);
-                                                    var urlEncodeString = queryString.stringify({transText : `${json.result.results[i].title}`});
+                                                    var urlEncodeString = queryString.stringify({transText : `${json.result.results[i].text}`});
                                                     var urlString = host + "/text2speech?" + urlEncodeString + "&transVoices=en-US_LisaV2Voice";
                                                     bot.reply(message, {"attachment":{"type":"audio", "payload": {"url":urlString }}});
                                                 }, i * 3000);
