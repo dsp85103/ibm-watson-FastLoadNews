@@ -20,15 +20,15 @@ module.exports = function (controller) {
                         callback: function (response, convo) {
 
                             if (isNaN(parseInt(response.text))) {
-                                bot.reply(message,'錯誤格式！');
+                                bot.reply(message, '錯誤格式！');
                                 convo.repeat();
                             } else {
                                 countTxt = response.text;
-                                bot.reply(message,'正在幫您尋找 `' + response.text + '` 則有關 `' + queryTxt + '` 的新聞文章');
-                                }
-                            
+                                bot.reply(message, '正在幫您尋找 `' + response.text + '` 則有關 `' + queryTxt + '` 的新聞文章');
+                            }
+
                             convo.next();
-                            
+
                         }
 
                     }], { 'key': 'query' });
@@ -71,22 +71,24 @@ module.exports = function (controller) {
                         // bot.reply(message, '好的，尋找中請稍後...');
 
                         const qs = queryString.stringify({ query: convo.extractResponse('query') });
-                        const host = `https://fastloadnews.mybluemix.net`;
-                        // const host = `https://847c851b.ngrok.io`;
+                        // const host = `https://fastloadnews.mybluemix.net`;
+                        const host = `https://60718e9c.ngrok.io`;
                         // eslint-disable-next-line no-console
-                        console.log(`Slack Bot host route: ${host}`);
                         fetch(`${host}/discovery?query=${queryTxt}&count=${countTxt}`)
                             .then(apiResponse => {
                                 if (apiResponse.ok) {
                                     apiResponse.json()
                                         .then(json => {
-                                            bot.reply(message, '這邊是我為您找出來有關的新聞...');
-                                            setTimeout(() => { }, 1000);
+                                            // bot.reply(message, '這邊是我為您找出來有關的新聞...');
                                             for (let i = 0; i < parseInt(countTxt, 10); i++) {
                                                 setTimeout(() => {
                                                     bot.reply(message, `${json.result.results[i].title}\n${json.result.results[i].url}`);
-                                                }, i * 2000);
+                                                    var urlEncodeString = queryString.stringify({transText : `${json.result.results[i].title}`});
+                                                    var urlString = host + "/text2speech?" + urlEncodeString + "&transVoices=en-US_LisaV2Voice";
+                                                    bot.reply(message, {"attachment":{"type":"audio", "payload": {"url":urlString }}});
+                                                }, i * 3000);
                                             }
+                                            setTimeout(() => { }, 1500);
                                         });
                                 } else {
                                     throw new Error(apiResponse.json());

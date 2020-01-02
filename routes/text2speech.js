@@ -5,7 +5,7 @@ const t2s = require('../services/ibm-watson-text2speech');
 const TAG = "Text2Speech";
 
 router.get('/', function (req, res) {
-    var accpectType = 'audio/ogg';
+    var accpectType = 'audio/mp3';
     const synthesizeParams = {
         text: req.query.transText,
         accept: accpectType,
@@ -26,6 +26,7 @@ router.get('/', function (req, res) {
             logger.log(TAG, JSON.stringify(audioStatus));
             if (audio.status == 200) {
                 // audio.result.pipe(fs.createWriteStream('happy.mp3'));
+                res.set('Content-Type', accpectType);
                 audio.result.pipe(res);
             } else {
                 res.send(JSON.stringify(audioStatus));
