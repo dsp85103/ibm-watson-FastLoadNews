@@ -2,10 +2,15 @@ const queryString = require('query-string');
 const discovery = require('../services/ibm-watson-discovery');
 const fetch = require('node-fetch');
 
+function float2int (value) {
+    return value | 0;
+}
+
 module.exports = function (controller) {
 
     var queryTxt;
     var countTxt;
+    const host = `https://fastloadnews.mybluemix.net`;
     // Wildcard hears response, will respond to all user input with 'Hello World!'
     controller.hears(['我想看新聞', '新聞'], 'message_received,facebook_postback', function (bot, message) {
         bot.startConversation(message, function (err, convo) {
@@ -13,6 +18,22 @@ module.exports = function (controller) {
                 convo.ask('請問您想看什麼新聞呢？', function (response, convo) {
                     convo.say('好的！我收到了！');
                     queryTxt = response.text;
+
+                    fetch(`${host}/translator?text=${queryTxt}`)
+                            .then(apiResponse => {
+                                if (apiResponse.ok) {
+                                    apiResponse.json()
+                                        .then(json => {
+                                            queryTxt = json.result.translations[0].translation;
+                                        });
+                                } else {
+                                    throw new Error(apiResponse.json());
+                                }
+                            })
+                            .catch(err => {
+                                // eslint-disable-next-line no-console
+                                console.error('error', err);
+                            });
 
                     convo.ask('請問您想看幾則新聞呢？', [{
 
@@ -23,7 +44,7 @@ module.exports = function (controller) {
                                 bot.reply(message, '錯誤格式！');
                                 convo.repeat();
                             } else {
-                                if (parseInt(response.text) > 0 && parseInt(response.text) <= 5) {
+                                if (float2int(parseInt(response.text)) > 0 && float2int(parseInt(response.text)) <= 5) {
                                     countTxt = response.text;
                                     bot.reply(message, '正在幫您尋找 `' + response.text + '` 則有關 `' + queryTxt + '` 的新聞文章');
                                 } else {
@@ -33,7 +54,6 @@ module.exports = function (controller) {
                             }
                             
                             convo.next();
-
                         }
 
                     }], { 'key': 'query' });
@@ -76,7 +96,7 @@ module.exports = function (controller) {
                         // bot.reply(message, '好的，尋找中請稍後...');
 
                         const qs = queryString.stringify({ query: convo.extractResponse('query') });
-                        const host = `https://fastloadnews.mybluemix.net`;
+                        
                         // const host = `https://60718e9c.ngrok.io`;
                         // eslint-disable-next-line no-console
                         fetch(`${host}/discovery?query=${queryTxt}&count=${countTxt}`)

@@ -17,4 +17,5 @@ module.exports = function (app) {
     app.use('/news', news);
     app.use('/discovery', discovery);
 
+    app.use('/tranlator', translator);
 }
